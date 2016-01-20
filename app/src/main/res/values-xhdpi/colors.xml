@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#447D48</color>
+    <color name="colorPrimaryDark">#267327</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="appBackground">#404040</color>
+
+    <color name="textViewBackground">#ffffff</color>
+    <color name="textViewText">#000000</color>
+
+    <color name="rollButtons">#666666</color>
+    <color name="actionButtons">#267327</color>
+    <color name="rollCharButtons">#447D48</color>
+    <color name="rollButtonsText">#ffffff</color>
+    <color name="actionButtonsText">#ffffff</color>
+    <color name="rollCharButtonsText">#ffffff</color>
+</resources>
