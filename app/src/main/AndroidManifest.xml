@@ -16,10 +16,11 @@
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <uses-sdk android:minSdkVersion="21"
+            android:targetSdkVersion="22"
+            android:maxSdkVersion="23" />
     </application>
-
 </manifest>

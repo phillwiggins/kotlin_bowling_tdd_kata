@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KataBowling</string>
+    <string name="app_name">American Ten Pin Bowling</string>
     <string name="button_clean">C</string>
     <string name="button_cancel">cc</string>
     <string name="button_1">1</string>
