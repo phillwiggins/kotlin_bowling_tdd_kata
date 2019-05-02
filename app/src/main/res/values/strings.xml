@@ -15,4 +15,5 @@
     <string name="button_11">9</string>
     <string name="button_12">-</string>
     <string name="button_calculateScore">=</string>
+    <string name="enter_your_line_of_rolls">Enter your line of rolls</string>
 </resources>

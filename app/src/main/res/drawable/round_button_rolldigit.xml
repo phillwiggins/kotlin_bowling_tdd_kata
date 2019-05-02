@@ -3,12 +3,12 @@
     <item android:state_pressed="false">
          <shape
              android:shape="oval">
-            <solid style="@style/ButtonRollDigit"/>
+            <solid android:color="@color/rollButtons"/>
         </shape>
     </item>
     <item android:state_pressed="true">
         <shape android:shape="oval">
-            <solid style="@style/ButtonAction"/>
+            <solid android:color="@color/actionButtons"/>
         </shape>
     </item>
 </selector>

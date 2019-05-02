@@ -1,4 +1,4 @@
-package com.example.marine.katabowlingandroid;
+package com.kata.bowling.kotlin;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KataBowlingMobile.iml" filepath="$PROJECT_DIR$/KataBowlingMobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin_bowling_tdd_kata.iml" filepath="$PROJECT_DIR$/kotlin_bowling_tdd_kata.iml" />
     </modules>
   </component>
 </project>

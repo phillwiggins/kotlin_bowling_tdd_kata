@@ -7,8 +7,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="TextViewStyle">
-        <item name="android:textSize">30sp</item>
+    <style name="ResultViewStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/textViewText</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:color">@color/textViewBackground</item>
+    </style>
+
+    <style name="DisplayTextViewStyle">
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/textViewText</item>
         <item name="android:textAlignment">center</item>
         <item name="android:color">@color/textViewBackground</item>
@@ -18,7 +25,7 @@
         <item name="android:textSize">30sp</item>
         <item name="android:textColor">@color/rollButtonsText</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:color">@color/rollButtons</item>
+        <item name="android:background">@color/rollButtons</item>
     </style>
 
     <style name="ButtonRollChar">

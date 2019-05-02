@@ -2,22 +2,40 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.marine.katabowling.kataGUI"
+    tools:context="com.kata.bowling.kotlin.MainActivity"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/appBackground">
 
-    <TextView
-        android:id="@+id/rollLineText"
-        style="@style/TextViewStyle"
-        android:layout_margin="@dimen/TextView_margin"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="@dimen/TextView_height"
-        android:layout_width="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/TextView_margin"
+        android:background="@drawable/text_view_background"
         android:gravity="center"
-        android:text="Enter your line of rolls"
-        android:background="@drawable/textview_background"
-        />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/displayText"
+            style="@style/DisplayTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/enter_your_line_of_rolls" />
+
+        <TextView
+            android:id="@+id/resultText"
+            style="@style/ResultViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            tools:text="5/8/43x" />
+
+    </LinearLayout>
 
     <GridLayout
         android:orientation="vertical"
@@ -27,6 +45,7 @@
         android:layout_margin="@dimen/gridLayoutMargin"
         android:columnCount="4"
         android:rowCount="5">
+
     <Button
         android:id="@+id/button_clean"
         android:tag="clean"
@@ -38,7 +57,8 @@
         android:layout_row="0"
         android:layout_column="0"
         android:text="@string/button_clean"
-        android:background="@drawable/round_button_action"/>
+        android:background="@drawable/round_button_action"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_cancel"
@@ -50,7 +70,8 @@
         android:layout_row="0"
         android:layout_column="3"
         android:text="@string/button_cancel"
-        android:background="@drawable/round_button_action"/>
+        android:background="@drawable/round_button_action"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_1"
@@ -63,7 +84,8 @@
         android:layout_row="1"
         android:layout_column="0"
         android:text="@string/button_1"
-        android:background="@drawable/round_button_rolldigit"/>
+        android:background="@drawable/round_button_rolldigit"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_2"
@@ -76,7 +98,8 @@
         android:layout_row="1"
         android:layout_column="1"
         android:text="@string/button_2"
-        android:background="@drawable/round_button_rolldigit"/>
+        android:background="@drawable/round_button_rolldigit"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_3"
@@ -89,7 +112,8 @@
         android:layout_row="1"
         android:layout_column="2"
         android:text="@string/button_3"
-        android:background="@drawable/round_button_rolldigit"/>
+        android:background="@drawable/round_button_rolldigit"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_4"
@@ -104,7 +128,8 @@
         android:layout_column="3"
         android:text="@string/button_4"
         android:background="@drawable/round_button_rollchar"
-        />
+        android:focusable="true"/>
+
     <Button
         android:id="@+id/button_5"
         style="@style/ButtonRollDigit"
@@ -116,7 +141,8 @@
         android:layout_row="2"
         android:layout_column="0"
         android:text="@string/button_5"
-        android:background="@drawable/round_button_rolldigit"/>
+        android:background="@drawable/round_button_rolldigit"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_6"
@@ -129,7 +155,8 @@
         android:layout_row="2"
         android:layout_column="1"
         android:text="@string/button_6"
-        android:background="@drawable/round_button_rolldigit"/>
+        android:background="@drawable/round_button_rolldigit"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_7"
@@ -142,7 +169,8 @@
         android:layout_row="2"
         android:layout_column="2"
         android:text="@string/button_7"
-        android:background="@drawable/round_button_rolldigit"/>
+        android:background="@drawable/round_button_rolldigit"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_8"
@@ -155,7 +183,8 @@
         android:layout_row="2"
         android:layout_column="3"
         android:text="@string/button_8"
-        android:background="@drawable/round_button_rollchar"/>
+        android:background="@drawable/round_button_rollchar"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_9"
@@ -169,7 +198,8 @@
         android:layout_row="3"
         android:layout_column="0"
         android:text="@string/button_9"
-        android:background="@drawable/round_button_rolldigit"/>
+        android:background="@drawable/round_button_rolldigit"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/button_10"
@@ -183,7 +213,8 @@
         android:layout_column="1"
         android:text="@string/button_10"
         android:background="@drawable/round_button_rolldigit"
-        />
+        android:focusable="true"/>
+
     <Button
         android:id="@+id/button_11"
         style="@style/ButtonRollDigit"
@@ -196,7 +227,8 @@
         android:layout_column="2"
         android:text="@string/button_11"
         android:background="@drawable/round_button_rolldigit"
-        />
+        android:focusable="true"/>
+
     <Button
         android:id="@+id/button_12"
         style="@style/ButtonRollChar"
@@ -209,7 +241,8 @@
         android:layout_column="3"
         android:text="@string/button_12"
         android:background="@drawable/round_button_rollchar"
-        />
+        android:focusable="true"/>
+
     <Button
         android:id="@+id/button_calculateScore"
         style="@style/ButtonAction"
@@ -221,7 +254,7 @@
         android:layout_column="3"
         android:text="@string/button_calculateScore"
         android:background="@drawable/round_button_action"
-        />
+        android:focusable="true" />
 
     </GridLayout>
 </LinearLayout>
