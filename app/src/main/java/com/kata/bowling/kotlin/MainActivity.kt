@@ -1,7 +1,6 @@
 package com.kata.bowling.kotlin
 
 import android.os.Bundle
-import android.text.InputFilter
 import android.widget.Button
 import android.widget.Toast
 import android.widget.Toast.LENGTH_LONG
